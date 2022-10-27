@@ -18,9 +18,9 @@ const connect = function (connection) {
     conn.write("Name: ONX")
   });
 
-  // setTimeout(() => {
-  //   conn.write("Move: up");
-  // }, 3000);
+  setTimeout(() => {
+    conn.write("Move: up");
+  }, 3000);
  
   // interpret incoming data as text
   conn.setEncoding("utf8");
