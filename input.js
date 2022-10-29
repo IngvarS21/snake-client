@@ -31,6 +31,15 @@ const handleUserInput = function (key) {
       console.log("Right is pressed.")
       connection.write("Move: right");
     }
+    if (key === 'q') {
+      connection.write("Say: Please move.");
+    }
+    if (key === 'e') {
+      connection.write("Say: I win!");
+    }
+    if (key === 'r') {
+      connection.write("Say: Nooooo!");
+    }
   };
   
 
